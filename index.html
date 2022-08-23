@@ -25,7 +25,7 @@
 		<header id="header">
 			<div class="logo">
 				<!-- <span class="icon fa-gem"></span> -->
-				<img id="personal-logo" src="images/personal_logo.png" width="30%" height="auto" >
+				<img id="personal-logo" src="images/personal_logo.png" style='height: 100%; width: 100%; object-fit: contain' >
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -36,9 +36,9 @@
 			<nav>
 				<ul>
 					<li><a href="#about">About</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#work">Projects</a></li>
+					<li><a href="#blog">Articles</a></li>
+					<li><a href="#contact">Short Bio</a></li>
 					<!--<li><a href="#elements">Elements</a></li>-->
 				</ul>
 			</nav>
@@ -49,7 +49,7 @@
 
 			<!-- Blog -->
 			<article id="blog">
-				<h2 class="major">Blog</h2>
+				<h2 class="major">Articles</h2>
 				<a
 					href="https://stephenandersondev.medium.com/what-are-geographic-information-systems-gis-a66dfbcfe2dd"><span
 						class="image main"><img src="https://miro.medium.com/max/700/1*tG7jc_hHbjr2lxZt_EVcOA.jpeg"
@@ -63,133 +63,72 @@
 					what it's used for, this really piqued my interest so I had to learn more! This is what I found.
 				</p>
 				<hr>
-				<a href="https://levelup.gitconnected.com/covid-and-coding-aba165448615"><span class="image main"><img
-							src="https://miro.medium.com/max/700/0*adYzPvPwmr2WH3pO" alt="" /></span>
-					<h4>COVID and Coding | Nov 19th, 2020</h4>
-				</a>
-				<p>While progressing into the last few weeks of my software engineering program at Flatiron School, I
-					wrote a blog post on how COVID has affected the world of software engineering. We explore its effect
-					on coding bootcamps, job searching, and working as a software engineer. I was even blessed enough to
-					have it published by "Level Up Coding".
-				</p>
-				<hr>
-				<a
-					href="https://stephenandersondev.medium.com/how-to-build-a-web-developer-portfolio-for-free-part-2-d099ff34f9b2"><span
-						class="image main"><img src="https://miro.medium.com/max/700/1*fEv8it6uJCPWJNMfzTV8MA.jpeg"
-							alt="" /></span>
-					<h4>How to Build a Web Developer Portfolio for Free | Part 2 - Nov 5th, 2020</h4>
-				</a>
-				<p>This is part 2 of my previous post on building a web developer portfolio website for free. This
-					sequel post specifically talks about what content needs to be on your website to build your personal
-					brand, and make you stick out. I was even blessed enough to have it published by "Level Up Coding".
-				</p>
-				<hr>
-				<a href="https://levelup.gitconnected.com/how-to-build-a-web-developer-portfolio-for-free-d456699ecef7"><span
-						class="image main"><img src="https://miro.medium.com/max/700/1*fF-NlNp73sQuOvhvU79xrg.jpeg"
-							alt="" /></span>
-					<h4>How to Build a Web Developer Portfolio for Free | Part 1 - Oct 22nd, 2020</h4>
-				</a>
-				<p>As I neared graduation from my Software Engineering Bootcamp, I realized that I needed to start doing
-					everything I can to get my name out there to potential employers and start building my personal
-					brand. I decided to not only build myself a portfolio website, but I also gave myself the challenge
-					of building and hosting the site for FREE. This blog post explains how I did it, and I was even
-					blessed enough to have it published by "Level Up Coding".</p>
-				<hr>
-				<a href="https://medium.com/swlh/using-git-in-visual-studio-code-2f16fde8406e"><span
-						class="image main"><img src="https://miro.medium.com/max/700/0*Dg_iIbnD3o_OMUrG"
-							alt="" /></span>
-					<h4>Using Git in Visual Studio Code - Oct 7th, 2020</h4>
-				</a>
-				<p>Check out my blog post on using the built-in version controls tools for Visual Studio Code. It breaks
-					down some of the more common git tasks and how they can be done easily and quickly in VS Code. I was
-					even blessed enough to have this blog published by "The Startup" and "Level Up Coding".</p>
-				<hr>
-				<a href="https://medium.com/@stephenandersondev/hiding-your-api-keys-in-ruby-1274a4af3fde"><span
-						class="image main"><img src="https://miro.medium.com/max/700/0*UaUH3y--jgGqJBlQ"
-							alt="" /></span>
-					<h4>Hiding Your API Keys in Ruby - Sept 23rd, 2020</h4>
-				</a>
-				<p>We can find stories everywhere online where an API key was stolen, and all of a sudden the key owner
-					is sent a huge bill for API calls that they never made. In this blog post, I explain how you can
-					easily hide your API keys in Ruby and put the worry in the past.</p>
 			</article>
 
 			<!-- Work -->
 			<article id="work">
-				<h2 class="major">Work</h2>
-				<span class="image main"><img src="images/algopath-dijkstra-gif.gif" alt="AlgoPath Project" />
-					<figcaption>AlgoPath (<a href="https://github.com/stephenandersondev/algopath-app"
-							target="_blank">GitHub</a> / <a href="https://youtu.be/sV5KLkQYRcw"
-							target="_blank">Demo</a>)</figcaption>
+				<h2 class="major">Projects</h2>
+				<span class="image main"><img src="images/samsung-tizen.png" alt="Samsung Tizen Logo" />
+					<figcaption>DummyWatchApp (<a href="https://github.com/nikopavl4/DummyWatchApp"
+							target="_blank">GitHub</a>)</figcaption>
 				</span>
-				<p>AlgoPath is a data visualization tool for different types of pathfinding algorithms that utilizes
-					a React frontend and a Ruby on Rails backend.
-				</p>
+				<p>A simple smartwatch app for TizenOS devices that connects to an open API and stores data with SQLite. Coded with Xamarin.Forms.</p>
 				<hr>
-				<span class="image main"><img src="images/gameplay.gif" alt="Monkey Jump Project" />
-					<figcaption>Monkey Jump (<a href="https://github.com/stephenandersondev/monkey-jump-app"
-							target="_blank">GitHub</a> / <a href="https://youtu.be/Y8FDJfGZjWw"
-							target="_blank">Demo</a>)</figcaption>
-				</span>
-				<p>Monkey Jump is a browser-based video game built with vanilla JavaScript and a
-					Ruby on Rails backend.
-				</p>
-				<hr>
-				<span class="image main"><img src="images/search-gif.gif" alt="Stellar Project" />
-					<figcaption>Stellar (<a href="https://github.com/stephenandersondev/stellar-app"
-							target="_blank">GitHub</a> / <a href="https://youtu.be/i7R7HOpHyKs"
-							target="_blank">Demo</a>)</figcaption>
-				</span>
-				<p>Stellar is an educational platform for students to research, create, and
-					present space science projects. It utilizes a React frontend and a Ruby on Rails backend.
-				</p>
-				<hr>
-				<span class="image main"><img src="images/dashboard.png" alt="Caseworks Project" />
-					<figcaption>CaseWorks (<a href="https://github.com/stephenandersondev/caseworks-app"
-							target="_blank">GitHub</a> / <a href="https://youtu.be/pw_XUwezDgI"
-							target="_blank">Demo</a>)</figcaption>
-				</span>
-				<p>CaseWorks is a case management system for social workers that
-					was built with Ruby on Rails.
-				</p>
 			</article>
 
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/profile_pic.jpg" alt="" /></span>
+				<span class="image main"><img src="images/profile_pic.jpg" alt=""  style='height: 80%; width: 80%; display: block; margin-left: auto; margin-right: auto;'/></span>
 				<p>From a very young age I was fascinated by computers. Starting for me as a game machine and then transforming into a whole new world thanks to Internet, I always new that computers would be my future occupation. For this reason I chose studying Electrical and Computer Engineering at Democritus University of Thrace, where I came closer to Programming, Algorithms and Mathematic Principles that govern them. </p>
 			</article>
 
-			<!-- Contact -->
+			<!-- Short Bio -->
 			<article id="contact">
-				<h2 class="major">Contact Me</h2>
-				<form method="post" action="https://formspree.io">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" required />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" required />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4" required></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary" /></li>
-						<li><input type="reset" value="Reset" /></li>
-					</ul>
-				</form>
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com" class="icon brands fa-linkedin"
-							target="_blank"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com" class="icon brands fa-github"
-							target="_blank"><span class="label">GitHub</span></a></li>
-				</ul>
+				<h2 class="major">Short Bio</h2>
+				<h3 style="font-size: 20px;">Education</h3>
+				<p><span style="font-size: 18px;">Department of Electrical and Computer Engineering</span><br>
+					<span style="font-size: 16px;"></span><em>Democritus University of Thrace, Xanthi | 2017 - 2022 </em></span><br>
+					<span style="font-size: 16px;"></span>GDP: 8.68 </span><br>
+					<span style="font-size: 14px;"></span>Diploma Thesis: Federated Learning on Graphs</span>
+				</p>
+				<hr>
+				<h3 style="font-size: 20px;">Work Experience</h3>
+				<p><span style="font-size: 18px;">Internship as software engineer</span><br>
+					<span style="font-size: 16px;"></span><em>Aidplex | 2021 </em></span><br>
+					<span style="font-size: 14px;"></span>During my internship, I developed a Multilayer Perceptron as a regressor for predicting current voltage based on pressure measurements that was used in company's final project.</span>
+				</p>
+				<hr>
+				<h3 style="font-size: 20px;">Volunteering Experience</h3>
+				<p><span style="font-size: 18px;">Mentor & Vice-Chair</span><br>
+					<span style="font-size: 16px;"></span><em>IEEE DUTH STUDENT BRANCH | 2018 - 2022 </em></span><br>
+					<span style="font-size: 14px;"></span>My long time participation in the student team helped me acquire both soft-skills and hard-skills in different areas of interest.</span>
+				</p>
+				<p><span style="font-size: 18px;">Microsoft Learn Student Ambassador (BETA)</span><br>
+					<span style="font-size: 16px;"></span><em>Microsoft | 2021 - today </em></span><br>
+					<span style="font-size: 14px;"></span>Member of AI & Machine Learning League, a global community of students sharing knowledge and ideas.</span>
+				</p>
+				<p><span style="font-size: 18px;">Android Applications Development</span><br>
+					<span style="font-size: 16px;"></span><em>Abacus Student Team DUTh | 2019 </em></span><br>
+					<span style="font-size: 14px;"></span>Development of various Android apps available on Play Store.</span>
+				</p>
+				<hr>
+				<h3 style="font-size: 20px;">Seminars - Conferences</h3>
+				<p><span style="font-size: 18px;">AZURE AI FUNDAMENTALS</span><br>
+					<span style="font-size: 16px;"></span><em>Microsoft, Jun 2021 </em></span>
+				</p>
+				<p><span style="font-size: 18px;">ETHICS OF AI</span><br>
+					<span style="font-size: 16px;"></span><em>University of Helsinki, Feb 2021 </em></span>
+				</p>
+				<p><span style="font-size: 18px;">LVIV Data science summer school</span><br>
+					<span style="font-size: 16px;"></span><em>Ukrainian Catholic University, 2020 </em></span>
+				</p>
+				<p><span style="font-size: 18px;">IEEE Hellenic student and young professional congress</span><br>
+					<span style="font-size: 16px;"></span><em>IEEE Region 8 (EMEA) | Nov 2019 </em></span>
+				</p>
+				<br>
+				<br>
+				<h3>Download full CV here</h3>
 			</article>
 
 			<!-- Elements -->
